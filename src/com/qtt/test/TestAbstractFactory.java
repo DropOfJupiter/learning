@@ -1,10 +1,10 @@
 package com.qtt.test;
 
-import com.qtt.factory.abstractmode.AbstractCreator;
-import com.qtt.factory.abstractmode.AbstractProductA;
-import com.qtt.factory.abstractmode.AbstractProductB;
-import com.qtt.factory.abstractmode.Creator1;
-import com.qtt.factory.abstractmode.Creator2;
+import com.qtt.designpatterns.factory.abstractmode.AbstractCreator;
+import com.qtt.designpatterns.factory.abstractmode.AbstractProductA;
+import com.qtt.designpatterns.factory.abstractmode.AbstractProductB;
+import com.qtt.designpatterns.factory.abstractmode.Creator1;
+import com.qtt.designpatterns.factory.abstractmode.Creator2;
 
 public class TestAbstractFactory {
 

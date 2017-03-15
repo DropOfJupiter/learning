@@ -1,10 +1,10 @@
 package com.qtt.test;
 
-import com.qtt.factory.method.Human;
-import com.qtt.factory.method.HumanFactory;
-import com.qtt.factory.method.IHumanFactory;
-import com.qtt.factory.method.Man;
-import com.qtt.factory.method.Woman;
+import com.qtt.designpatterns.factory.method.Human;
+import com.qtt.designpatterns.factory.method.HumanFactory;
+import com.qtt.designpatterns.factory.method.IHumanFactory;
+import com.qtt.designpatterns.factory.method.Man;
+import com.qtt.designpatterns.factory.method.Woman;
 
 public class TestMethodFactory {
 

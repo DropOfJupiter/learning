@@ -1,9 +1,9 @@
 package com.qtt.test;
 
-import com.qtt.factory.simple.Human;
-import com.qtt.factory.simple.HumanFactory;
-import com.qtt.factory.simple.Man;
-import com.qtt.factory.simple.Woman;
+import com.qtt.designpatterns.factory.simple.Human;
+import com.qtt.designpatterns.factory.simple.HumanFactory;
+import com.qtt.designpatterns.factory.simple.Man;
+import com.qtt.designpatterns.factory.simple.Woman;
 
 public class TestSimpleFactory {
 

@@ -1,9 +1,11 @@
-package com.qtt.designpatterns.singleton;
+package com.qtt.test;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class SingletonTest {
+import com.qtt.designpatterns.singleton.LazySingleton;
+
+public class TestSingleton {
 
 	public static void main(String[] args) {
 //		LazySingleton lazySingleton1 = LazySingleton.getInstance();

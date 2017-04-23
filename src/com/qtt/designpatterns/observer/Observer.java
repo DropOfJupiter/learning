@@ -5,5 +5,14 @@ package com.qtt.designpatterns.observer;
  *
  */
 public interface Observer {
-	void update(String temperature,String humidity,String pressure);
+	/**
+	 * 将目标对象作为update方法的参数，这是典型的“拉模型”
+	 * @param weatherSubject
+	 */
+	void update(ConcreteWeatherSubject weatherSubject);
+	/**
+	 * 将目标对象的天气内容作为update方法的参数，这是典型的“推模型”
+	 * @param weatherSubject
+	 */
+	void update(String  weatherContent);
 }
